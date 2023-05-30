@@ -1,9 +1,3 @@
----
-title: "Setup"
-date: 2023-02-01T10:00:00+01:00
-draft: false
-weight: 0
----
 # Setting up the Lambda Engine (using docker) #
 Using the Lambda Engine docker image requires a running instance of docker (see https://docs.docker.com/get-docker/)
 

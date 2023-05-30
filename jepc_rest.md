@@ -1,9 +1,3 @@
----
-title: "JEPC Rest Service"
-date: 2023-02-01T10:00:00+01:00
-draft: false
-weight: 4
----
 In the following we assume that the server is running locally (`localhost`) and has been configured to listen on port `8080`. For Setup see [Lambda Engine: Setup]({{< ref "setup" >}}). The service provides several endpoints under the URL `http://localhost:8080/jepc`, which are explained in more detail below.
 
 {{< hint type=note >}}

@@ -1,10 +1,3 @@
----
-title: "Query Language"
-date: 2023-02-01T10:00:00+01:00
-draft: false
-weight: 2
----
-
 # Data Model #  
 
 The Lambda Engine and its core components JEPC and ChronicleDB are dedicated event stream processing and database systems specialized for storing and querying high volume event data, which are inherently ***temporal*** in nature. The basic underlying data model of events requires that data items can be expressed in following form:

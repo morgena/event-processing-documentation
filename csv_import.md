@@ -1,9 +1,3 @@
----
-title: "CSV Import"
-date: 2023-02-01T10:00:00+01:00
-draft: false
-weight: 1
----
 In addition to data import via the REST API, streams can also be imported in CSV format, if you are running the Lambda Eninge locally, that is without docker. The CSV import is started from the command line and imports events into ChronicleDB according to a predefined configuration. The import is started from the command line with the configuration file as the only argument:
 ```
 java -cp $CLASSPATH en.umr.lambda.rest.loading.CSVLoader $CSV_CONFIG

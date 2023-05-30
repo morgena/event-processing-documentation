@@ -1,9 +1,3 @@
----
-title: "ChronicleDB Rest Service"
-date: 2023-02-01T10:00:00+01:00
-draft: false
-weight: 3
----
 In the following we assume that the server is running locally (`localhost`) and has been configured to listen on port `8080`. For Setup see [Lambda Engine: Setup]({{< ref "setup" >}}). This service provides several endpoints under the URL `http://localhost:8080/chronicledb`, to access the persistance layer (ChronicleDB), which are explained in more detail below.
 
 {{< hint type=note >}}
