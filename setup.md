@@ -11,7 +11,7 @@ To pull the image from a remote image repository use:
 Change the url to the image repository, the name of the specific image and the release tag of the wanted version.
 The command then may look like:
 
-``` docker pull gitlab.uni-marburg.de:5050/fb12/ag-seeger/lambda-engine:latest ```
+``` docker pull ghcr.io/morgena/lambda-engine:latest  ```
 
 Alternatively, to manually load an archive into your local docker image repository use the following command and replace the path with the path of your locally stored image archive file.
 
